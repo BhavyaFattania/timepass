@@ -3,12 +3,12 @@ body, html {
   padding: 0;
   overflow: hidden;
   font-family: 'Roboto', sans-serif;
-  color: #f0f0f0; /* default text color */
+  color: #f0f0f0; 
 }
 
 #vanta-bg {
   width: 100vw;
-  height: 100vh; /* Ensure the background element fills the viewport */
+  height: 100vh; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,14 +27,14 @@ h1 {
   font-size: 3.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: #ffffff; /* Change to white for better contrast */
-  text-shadow: 0 0 10px rgba(0, 255, 255, 0.7), 0 0 20px rgba(0, 255, 255, 0.6), 0 0 30px rgba(0, 255, 255, 0.5), 0 0 40px rgba(0, 255, 255, 0.4), 0 0 50px rgba(0, 255, 255, 0.3); /* Glow effect for text */
+  color: ##000000; 
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.7), 0 0 20px rgba(0, 255, 255, 0.6), 0 0 30px rgba(0, 255, 255, 0.5), 0 0 40px rgba(0, 255, 255, 0.4), 0 0 50px rgba(0, 255, 255, 0.3); 
 }
 
 p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
-  color: #dcdcdc; /* Slightly lighter text for paragraph */
+  color: #dcdcdc; 
 }
 
 .custom-button {
