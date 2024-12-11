@@ -1,0 +1,15 @@
+{
+  "name": "vanta-halo-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "dependencies": {
+    "three": "^0.134.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanta.js HALO Background</title>
+    <!-- Link to the Three.js library -->
+    <script src="three.r134.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.halo.min.js"></script>
+
+    <!-- Link to the Vanta.js HALO effect -->
+    <script src="vanta.halo.min.js"></script>
+    <!-- Styling to ensure full-page background -->
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* To remove scrollbars */
+        }
+        #vanta-bg {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .content {
+            position: relative;
+            z-index: 1;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin-top: 20%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Div for Vanta.js effect -->
+    <div id="vanta-bg"></div>
+    
+    <!-- Content over the effect -->
+    <div class="content">
+        <h1>Welcome to My Website</h1>
+        <p>Explore the stunning Vanta.js HALO background!</p>
+    </div>
+
+    <!-- Vanta.js HALO initialization -->
+    <script>
+        VANTA.HALO({
+          el: "#vanta-bg",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.00,
+          minWidth: 200.00
+        });
+    </script>
+</body>
+</html>
