@@ -1,15 +1,12 @@
-let vantaEffect = VANTA.TRUNK({
+let vantaEffect = VANTA.HALO({
   el: "#vanta-bg", 
   mouseControls: true,
   touchControls: true,
   gyroControls: false,
   minHeight: 200.00,
-  minWidth: 200.00,
-  scale: 1.00,
-  scaleMobile: 1.00,
-  chaos: 3.0, 
-  spacing: 0.5
+  minWidth: 200.00
 });
+
 let chaosDirection = 0.05; 
 let maxChaos = 5.0; 
 let minChaos = 2.0; 
