@@ -1,3 +1,4 @@
+
 let vantaEffect = VANTA.HALO({
   el: "#vanta-bg", 
   mouseControls: true,
@@ -20,3 +21,5 @@ function animateChaos() {
   requestAnimationFrame(animateChaos); 
 }
 animateChaos();
+
+
